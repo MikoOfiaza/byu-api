@@ -10,5 +10,4 @@ export const users = pgTable('users', {
   clerkId: text('clerk_id').notNull().unique(),
   email: varchar('email', { length: 256 }),
   name: text('name'),
-  username: text('username')
 });
